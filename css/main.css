@@ -1,0 +1,74 @@
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font: normal 100%;
+}
+
+article {
+  text-align: left;
+  max-width: 47em;
+}
+
+body {
+  font-family: "Libre Baskerville", serif;
+  color: #222;
+  margin: 0;
+  padding: 0 1em 0 1em;
+}
+
+header {
+  background-color: #259f95;
+  text-align: left;
+  padding: 1.5em;
+  margin: 0;
+  border-radius: 0 0 10px 10px;
+}
+
+.chapter-num {
+  display: block;
+  color: #fff;
+  font-size: 0.5em;
+  font-style: italic;
+}
+
+h1 {
+  display: block;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.colon {
+  display: none;
+}
+
+p:nth-child(2)::first-line {
+  font-style: italic;
+  color: #1e7c74;
+}
+
+p {
+  font-size: 1rem;
+}
+
+img {
+  border: solid;
+  border-color: #259f95;
+  border-width: thin;
+  border-radius: 15px;
+  width: 100%;
+  display: block;
+}
+
+footer {
+  background-color: #259f95;
+  color: #fff;
+  font-style: italic;
+  font-size: 0.75em;
+  text-align: center;
+  padding: 1.5em;
+  margin: 0;
+  border-radius: 10px 10px 0 0;
+}
