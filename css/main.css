@@ -7,7 +7,10 @@ html {
   font: normal 100%;
 }
 
-
+article {
+  text-align: left;
+  max-width: 47em;
+}
 
 body {
   font-family: "Libre Baskerville", serif;
